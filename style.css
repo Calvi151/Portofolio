@@ -358,9 +358,10 @@ section{
 }
 
 .project-card img{
-    max-width: 300px;
+    max-width: 200px;
     border-radius: 2em;
     object-fit: cover;
+    max-height: 100px;
 }
 
 .project-card h3{
@@ -491,4 +492,12 @@ section{
     .contact form{
         flex-direction: column;
     }
+}
+
+.Copyright{
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--text--color);
+    margin-top: 2rem;
+    justify-content: center;
 }
